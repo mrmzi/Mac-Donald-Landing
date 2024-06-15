@@ -1,0 +1,48 @@
+:root {
+  --color_C90000: #c90000;
+  --color_7D7C7C: #7d7c7c;
+  --color_504F4F: #504f4f;
+  --color_323232: #323232;
+  --color_FFC300: #ffc300;
+  --color_FFF6A3: #fff6a3;
+  --color_E3E3E3: #e3e3e3;
+  --color_F1F1F1: #f1f1f1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+@media screen and (max-width: 690px){
+body{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
+@media screen and (min-width: 690px) and (max-width: 834px){
+body{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
